@@ -1,1 +1,3 @@
-# GalaxyAstronomyLecture
+# CourseNotes
+
+Some notes
