@@ -1792,3 +1792,97 @@ $$
 #### 强度放大（增亮）效应
 
 <img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch7_18.png" alt="ch7_18" style="zoom:50%;" />
+
+# 第八章 星系大尺度空间分布
+
+* 宇宙空间中星系如何分布？
+* 图像观测：星系在天球上的投 影，赤经（$\alpha$）、赤纬（$\delta$）
+* 三维分布：需要测量星系距离 (V = cz = $H_0$d) $\to$ 红移巡天
+* 星系分布非均匀：星系集中在 一些巨壁和长条里，有些地方 没有星系（巨洞）。
+
+# 8.1 观测大尺度结构：结构描述
+
+* 近邻宇宙 15000 个 亮星系在天球上的 位置：星系在空间 分布不均匀
+* b ＝ 0 ：银河系盘平 面附近光学隐带， 银盘尘埃遮挡
+* 富星系团和巨洞 星系数密度很低。
+* 近邻（d ~ 20 Mpc）椭圆星系在超星系 坐标系统上的分布：原点是银河系，颜 ⾊表示星系退⾏速度（三维分布）
+* 星系团和星系群在空间分布是不均匀的
+
+## 8.1.1 星系红移巡天 galaxy redshift surveys
+
+* 了解星系在更大尺度空间的分布，需要 开展星系红移巡天：利用光谱，测量红 移，得到星系距离
+* 著名的星系红移巡天
+  * CfA2 ：利用 Hopkins 山 1.5 米望远镜，观 测 17000 平方度天区 18000 星系光谱， B < 15.5
+  * 2dF ：利用 3.9 米 AAT 望远镜（ 2 平方度 视场， 400 根光纤）观测 1500 平方度天区20 万个星系光谱， bJ <19.45.
+  * SDSS ：利用 2.5 米望远镜开展的图像和 多光纤（ I-III : 640 ， IV : 1000 ）光谱巡 天 . 100 万条星系光谱 .
+  * 其他红移巡天： GAMA 、 WiggleZ 、 DEEP2 、 VVDS 、 BigBOSS （ DESI ）、 EUCLID 、 PFS 等
+
+## 8.1.2 星系成团量度
+
+#### 两点相关函数、功率谱、密度涨落
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_1.png" alt="ch8_1" style="zoom:50%;" />
+
+功率谱（Power Spectrum）
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_2.png" alt="ch8_2" style="zoom:50%;" />
+
+#### 密度涨落
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_3.png" alt="ch8_3" style="zoom:50%;" />
+
+# 8.2 宇宙学观测基础：观测事实
+
+* 夜空是黑的：奥伯斯佯谬（若宇宙是稳恒、且无 限的，则夜空应该是亮的）
+* 星系大尺度空间分布：宇宙在大尺度上是均匀的 和各向同性的（宇宙学原理）
+* 星系距离与红移关系：星系的退行速度与星系的 距离成正比（哈勃定律）
+* 宇宙微波背景辐射：黑体（热）谱， $T_0 = 2.728 +/- 0.004 $K ；$\Delta T/T = 1/10^5$
+* 宇宙中元素丰度：宇宙中绝大部分氦元素是由宇 宙早期核反应产生（$\alpha\beta\gamma$理论）
+* 宇宙的年龄：必定大于宇宙最古老天体的年龄， 如球状星团 （ T ~ 12 - 13 Gyr ）
+
+## 奥尔伯斯佯谬 Olbers’s Paradox
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_4.png" alt="ch8_4" style="zoom:50%;" />
+
+## 宇宙学原理
+
+* 宇宙学原理：宇宙在大尺度上是均匀且各向同性 的（星系大尺度分布和宇宙微波背景）
+  * 宇宙中不同地点，同一时刻看到的宇宙图像相同 
+  * 宇宙中不同地点，同时看到宇宙的演化图景相同 
+  * 无特殊的位置和方向，宇宙中的所有观测者平权
+  * 普适性：从地球到宇宙，物理定律都普适成立
+
+# 8.3 均匀宇宙的膨胀：标度因子
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_5.png" alt="ch8_5" style="zoom:50%;" />
+
+## 8.3.1 共动坐标系 comoving coordinates
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_6.png" alt="ch8_6" style="zoom:50%;" />
+
+## 8.3.2 标度因子 Scale Factor a(t)
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_7.png" alt="ch8_7" style="zoom:50%;" />
+
+## 8.3.3 Hubble Parameter H(t)
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_8.png" alt="ch8_8" style="zoom:50%;" />
+
+## 8.3.4 宇宙学红移 Cosmological Redshift
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_9.png" alt="ch8_9" style="zoom:50%;" />
+
+## 8.3.5 宇宙密度演化
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_10.png" alt="ch8_10" style="zoom:50%;" />
+
+## 8.3.6 星系年龄
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_11.png" alt="ch8_11" style="zoom:50%;" />
+
+# 8.4 观测最早的星系：特性影响
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_12.png" alt="ch8_12" style="zoom:50%;" />
+
+# 8.5 宇宙结构的增长：本动速度
+
