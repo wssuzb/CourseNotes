@@ -1817,7 +1817,7 @@ $$
   * SDSS ：利用 2.5 米望远镜开展的图像和 多光纤（ I-III : 640 ， IV : 1000 ）光谱巡 天 . 100 万条星系光谱 .
   * 其他红移巡天： GAMA 、 WiggleZ 、 DEEP2 、 VVDS 、 BigBOSS （ DESI ）、 EUCLID 、 PFS 等
 
-## 8.1.2 星系成团量度
+### 8.1.2 星系成团量度
 
 #### 两点相关函数、功率谱、密度涨落
 
@@ -1840,11 +1840,11 @@ $$
 * 宇宙中元素丰度：宇宙中绝大部分氦元素是由宇 宙早期核反应产生（$\alpha\beta\gamma$理论）
 * 宇宙的年龄：必定大于宇宙最古老天体的年龄， 如球状星团 （ T ~ 12 - 13 Gyr ）
 
-## 奥尔伯斯佯谬 Olbers’s Paradox
+### 奥尔伯斯佯谬 Olbers’s Paradox
 
 <img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_4.png" alt="ch8_4" style="zoom:50%;" />
 
-## 宇宙学原理
+### 宇宙学原理
 
 * 宇宙学原理：宇宙在大尺度上是均匀且各向同性 的（星系大尺度分布和宇宙微波背景）
   * 宇宙中不同地点，同一时刻看到的宇宙图像相同 
@@ -1876,13 +1876,113 @@ $$
 
 <img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_10.png" alt="ch8_10" style="zoom:50%;" />
 
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_13.png" alt="ch8_13" style="zoom:50%;" />
+
 ## 8.3.6 星系年龄
 
 <img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_11.png" alt="ch8_11" style="zoom:50%;" />
+
+### 回溯时间 – 高红移星系的年龄
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_14.png" alt="ch8_14" style="zoom:50%;" />
 
 # 8.4 观测最早的星系：特性影响
 
 <img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_12.png" alt="ch8_12" style="zoom:50%;" />
 
+## 8.4.1 光度距离
+
+* 绝对光度为 L 的星系
+  * 光子发射的时刻 te ，接收到的时刻是t0
+  * t0时刻，波前的面积为$A=4\pi a^2(t0)r0^2$
+  * r(t=t0)为星系共动距离；a(t)标度因子
+  * 宇宙膨胀，单个光子到达频率要比发射频 率减小一个红移因子 a(te )/a(t0 )=1/(1+z) [ 速率变慢 ]
+  * 接收到的单个光子能量 h$v_0$，要比发射时 的光子能量 h$v_e$减小同样一个红移因子 1/(1+z) [ 能量减少 ]
+* 一个位于径向坐标 r(te ) 处，红移为 z 的光源， 其能流 F 与星系光度 L 关系：
+
+$$
+F=\frac{L}{4\pi a^2(t_0)r^2(t_0)(1+z)^2}=\frac{L}{4\pi d_L^2}
+$$
+
+* $d_L$为光度距离：$d_L=(1+z)a(t_0)r(t_0)$
+
+## 8.4.2 角直径距离
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_15.png" alt="ch8_15" style="zoom:50%;" />
+
+## $d_L, d_A与红移z关系$
+
+$$
+d_A=d_{now}/(1+z)=d_L/(1+z)^2;
+d_{now}=a(t_0)r(t_0)
+$$
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_16.png" alt="ch8_16" style="zoom:50%;" />
+
+## 8.4.3 星系的面亮度
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_17.png" alt="ch8_17" style="zoom:50%;" />
+
+## 8.4.4 星系能谱 – 宇宙膨胀影响
+
+![ch8_18](/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_18.png)
+
+## 8.4.5 星系空间密度
+
+![ch8_19](/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_19.png)
+
 # 8.5 宇宙结构的增长：本动速度
+
+* 辐射与物质退耦主要发生在红移 z~1100 ：宇宙背景辐射记录了当时宇宙演化情况 
+* 观测表明， CMB 温度分布基本上是均匀各向同性的，只存在很小涨落$\Delta T/T\sim 10^{-5}$
+* 初始涨落在小尺度空间密度变化最强：致密区随着周围物质落向它们而迅速变密 
+* 通过观测内落星系的本动：可探测今天质量的大尺度分布，了解宇宙结构的增长
+
+## 8.5.1 宇宙微波背景辐射的涨落
+
+* 物质的分布如何影响今天观测到 的宇宙背景辐射？
+  * 辐射要从一个密度高的区域传播 出来，需要克服引力势：从高密 区域到达我们的辐射较冷
+* 物质和辐射退耦以后，辐射不再与物质发生有效 的相互作用：重子声波震荡得到物质分布涨落
+* 线性增长阶段：密度比平均值稍大的区域，冷暗 物质和重子物质在一起，膨胀速率比宇宙整体慢 ，密度增加，两者一起坍缩
+* 非线性增长阶段：坍缩之后，重子物质通过辐射 冷却失去能量，凝聚形成恒星和星系；冷暗物质 粒子不能通过辐射冷却失去能量，保持在星系外 围，形成一个很大的，且大致为球状的晕中
+
+## 8.5.2 星系的本动
+
+* 哈勃流
+  * 宇宙在大尺度上是均匀、各向同性地膨胀
+  * 宇宙“均匀背景”运动，即所谓的哈勃流
+* 星系本动
+  * 宇宙中物质分布是不均匀的，呈现出各种尺 度的结构（星系群、团、超团、空洞）
+  * 物质分布的不均匀性，使得观测天体除了参 与“均匀背景”的运动之外，还要附加一个由周围物质密度扰动所引起的“本动”运动
+  * 本动使得星系的运动偏离均匀背景的哈勃流
+  * 偏离哈勃流的附加速度称之为星系本动速度
+* 本动速度会使得利用星系红移测量距离产生偏差 ，造成红移空间和实际空间的差异：红移畸变
+* 应用：测量本动速度，获知宇宙物质分布不均匀 性信息，作为宇宙学的一种检验，可对宇宙结构 形成理论给出限制
+
+### 近邻椭圆星系本动
+
+<img src="/Users/suzhenbo/MyLibrary/Github/GalaxyAstronomyLecture/GalaxyAstronomy/lecture/pic/ch8_20.png" alt="ch8_20" style="zoom:50%;" />
+
+### 红移空间畸变–上帝的手指
+
+* 为了得到星系的功率谱或相关函数，必须知道星系的 三维空间分布
+* 对于大多数星系，测量的红移，包括宇宙学红移和星 系本动速度附加的红移： v = v Hubble+ vpec
+* 哈勃速度仅由距离决定；而本动速度与距离无关
+* 由于无法区分 v Hubble 和 v pec ，导致基于哈勃关系测量 的距离不准确：$ D=v/H_0 =(v_{Hubble} +v_{pec} )/H_{0} =D_{rel} + \Delta D$
+* 由红移测得的距离中，包含本动速度引起的误差$\Delta D= v_{pec} /H_{0}$ ：由红移空间构建出的星系三维分布，与星 系的真实空间分布产生了差异，称为红移空间畸变
+* 上帝的手指（ Fingers-of-God ）效应：星系红移巡天 观测时，有一些细长结构沿视线（径向）方向分布
+* 解释：已经达到位力平衡的富星系团 V~n*10$^{3}$ km/s ， 在视线方向，弥散速度造成的红移和蓝移叠加在宇宙 学红移上，使红移分布范围变宽，在红移方向呈现细 长的手指状结构
+
+### 红移空间畸变 -- Kaiser Effect
+
+* 大尺度区域：
+  * 对于更大尺度的星系团，还没有达到位力平 衡：外围的星系任处于向星系团中心下落。
+  * 靠近观测者一侧的星系由于向星系团中心下 落，其总的红移要比宇宙学红移大一些
+  * 位于另一侧的星系由于下落方向和哈勃流相 反，总的红移小于宇宙学红移
+  * 因此，在红移空间中看来，整个星系团的结 构将沿视线方向变扁：这个现象称为“挤压 效应” (squashing effect) 或者 Kaiser 效应。
+* 小尺度区域：
+  * 靠近星系团中心处，星系速度达到位力化；
+  * 形成了长轴在视线方向上的椭球形状：“上 帝之手”效应。
+
+
 
